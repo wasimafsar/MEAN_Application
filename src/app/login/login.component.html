@@ -1,0 +1,21 @@
+
+<h2 class="center"> WELCOME TO SAFA BOOK STORE</h2>
+<div>
+<img src='http://publiclibrariesonline.org/wp-content/uploads/2012/10/feature-brand-book.jpg' width="50%" height="50%">
+
+<form  class="center">
+    
+  <div class="form-group">
+    <label>Username </label>
+    <input type="text" class="form-control" [(ngModel)]="username" name="username">
+  </div>
+  <div class="form-group">
+    <label>Password </label>
+    <input type="password" class="form-control" [(ngModel)]="password" name="password">
+  </div>
+<br/>
+
+  <button mat-raised-button (click)="onLoginSubmit()"  color="primary">Login</button>
+  <button id="button2" mat-raised-button (click)="onsignupSubmit()"  color="accent">Sign Up</button>
+</form>
+</div>
